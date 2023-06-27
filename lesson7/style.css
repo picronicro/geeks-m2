@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 10px;
+}
+
+.todo {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.todo input {
+    width: 100%;
+    padding: 2px;
+    border-radius: 3px;
+}
+.todo span {
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
+button {
+    float: right;
+    padding: 2px;
+    border-radius: 1px;
+}
+
+/**/
+.todoList {
+    margin-top: 10px;
+}
+
+.buttons {
+    display: flex;
+    gap: 2px;
+}
+
+.block_text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 8px;
+    border: lightgray solid thin;
+    width: 50%;
+}
+

@@ -50,5 +50,5 @@ var newObject = {
 
 newObject.doesLikeGames = false
 newObject["doesLikeGames"] = true
-newObject["meta"]["noMeta"] = true1
+newObject["meta"]["noMeta"] = true
 console.log(newObject)
